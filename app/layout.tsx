@@ -2,13 +2,13 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "der die das — Artikel üben",
-  description: "Lerne deutsche Artikel: der, die, das",
+  title: "Genus — Deutsche Artikel meistern",
+  description: "Meistere der, die und das mit Genus – dem schnellen Artikel-Trainer.",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "der die das",
+    title: "Genus",
   },
 };
 

@@ -1,7 +1,7 @@
 {
-  "name": "der die das",
-  "short_name": "ddd",
-  "description": "Lerne deutsche Artikel: der, die, das",
+  "name": "Genus",
+  "short_name": "Genus",
+  "description": "Meistere der, die und das mit Genus – dem schnellen Artikel-Trainer.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
