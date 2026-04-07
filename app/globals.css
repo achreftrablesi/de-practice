@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  background: #0a0a0a;
+  color: #f0f0f0;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-6px); }
+  80% { transform: translateX(6px); }
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
+@keyframes bunny-hop {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-18px) rotate(-8deg); }
+  50% { transform: translateY(-24px) rotate(0deg); }
+  75% { transform: translateY(-18px) rotate(8deg); }
+}
+
+@keyframes bunny-shadow {
+  0%, 100% { transform: scaleX(1); opacity: 0.4; }
+  50% { transform: scaleX(0.5); opacity: 0.15; }
+}
+
+@keyframes dot-pulse {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+.shake { animation: shake 0.4s ease; }
+.pop { animation: pop 0.25s ease; }
+.bunny-hop { animation: bunny-hop 0.7s ease-in-out infinite; }
+.bunny-shadow { animation: bunny-shadow 0.7s ease-in-out infinite; }
+.dot1 { animation: dot-pulse 1.2s ease-in-out infinite 0s; }
+.dot2 { animation: dot-pulse 1.2s ease-in-out infinite 0.2s; }
+.dot3 { animation: dot-pulse 1.2s ease-in-out infinite 0.4s; }
